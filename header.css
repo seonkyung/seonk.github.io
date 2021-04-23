@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
+
+header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: rgba( 0, 0, 0, 0);
+    color: white;
+    padding: 20px 30px 20px 30px;
+}
+
+/* 로고 */
+header h1{
+    margin: 0 10px;
+    padding: 0px;
+    float: left;
+}
+header h1 a{
+    line-height: 70px;
+}
+header h1 a img{
+    vertical-align: middle;
+}
+
+/* 메뉴 */
+header nav{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+header nav ul li{
+    float: left;
+    list-style: none;
+}
+header nav ul li a{
+    float: left;
+    list-style: none;
+    line-height: 70px;
+    padding: 0px 30px;
+}
+header nav ul li a:link{
+    color:#f6f6f6; text-decoration: none; font-weight: 400;}
+header nav ul li a:visited{
+    color:#f6f6f6; text-decoration: none; font-weight: 400;}
+header nav ul li a:hover{
+    color:#FFFFFF; font-weight: 500;}
+header nav ul li a:active{
+    color:#FFFFFF; font-weight: 500; text-decoration: underline;}
+.clear{ clear:both; height:0; overflow:hidden;}
+
+.selected{
+  font-weight: 500;
+}
